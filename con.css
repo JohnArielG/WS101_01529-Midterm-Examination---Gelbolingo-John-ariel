@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.dash a{
+	display: block;
+	font -size:80px;
+	text-decoration: none;
+	color: white;
+	font-style: arial;	
+	padding:  15px 15px;
+	float: center;
+	width: 80px;
+	height: 50px;
+}
+.dash a:hover{
+	background-color: grey;
+	width: 80px;
+	height: 50px;
+
+}
+
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("/image/gr.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Container {
+	width: 400px;
+	min-height: 400px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	padding: 40px 30px;
+}
+
+.Container .Login-text{
+	color: black;
+	font-weight: 500;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+	text-transform: capitalize;
+}
+.Container .Login .input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 25px;
+}
+.Container .Login .input input{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #E7E7E7;
+	padding: 15px 20px;
+	font-size: 1rem;
+	border-radius: 30px;
+	background: transparent;
+	outline: none;
+	transition: .5;
+}
+.Container .Login .input input:focus, .container .Login .input input:valid{
+	border-color: #A59FF7;
+}
+.Container .login .input .btn{
+	display: block;
+	width: 100%;
+	padding: 15px 20px;
+	text-align: center;
+	border: none;
+	background: #5044F2;
+	outline: none;
+	border-radius: 30px;
+	font-size: 1.2rem;
+	color: #FFF;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.Container .login .input .btn: hover{
+	transform: translateY(-3px);
+	background: #5044F2;
+}
+.Login-register-text {
+	text-decoration: black;
+	font-weight: 600;
+}
+.Login-register-text a{
+	text-decoration: none;
+	color: #7768E9;
+}
+
+.box{
+	width: 580px;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 50px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+
+}
+.box-img{
+	border-radius: 80%;
+	width: 500px;
+	height: 500px;
+}
+.box p{
+	font-size: 50px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box h1{
+font-size: 40px;
+letter-spacing: 4px;
+font-weight: 100;
+}
+.box h2{
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box h5{
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.containers {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150%;
+	height: 150%;
+	padding: 20px 100px;
+}
+.containers:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url("/image/backg.jpg") no-repeat center;
+	background-size: cover;
+	z-index: -1;
+	filter: blur(50px);
+}
+.content-box{
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+}
+
+.left{
+	height: 100%;
+	background: url("/image/sadss.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+@media (max-width: 400px) {
+	.Container {
+		width: 300px;
+	}
+	.Container
+}
